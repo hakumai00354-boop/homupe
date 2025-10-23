@@ -1,0 +1,161 @@
+/*Á´ÂÎ¶¦ÄÌ*/
+body{
+
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 400;
+    background-color: #71c6d0;
+
+}
+    h2 {
+	font-family: 'Noto Sans JP', sans-serif;
+	font-weight: 500;
+    }
+    h1 {
+	font-family: 'Noto Sans JP', sans-serif;
+	font-weight:700;
+    }
+    .title {
+	font-family: 'Noto Sans JP', sans-serif;
+	font-weight: 900;
+    }
+    
+     h3 {
+        font-family: 'Noto Sans JP' , sans-serif;
+        font-weight: 300; 
+        
+        }
+
+  
+/*¥Ø¥Ã¥À¡¼*/
+header .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+
+    margin: 0 auto;
+    max-width: 1280px;
+    padding: 20px 0;
+}
+
+
+header .logo {
+    font-size: 24px;
+    font-weight:700;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 50px;
+}
+
+
+/*¥á¥¤¥?Ó¥¸¥å¥¢¥?*/
+.main_visual {
+    background-image: url('./mv.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    position: relative;
+}
+
+.main_visual .container {
+    width: 90%;
+    margin: 0 auto;
+    max=width: 1280px;
+    height: 640px;
+    position: relative;
+}
+
+.main_visual .title{
+    position: absolute;
+    bottom: 100;
+    left: 0;
+    z-index:2;
+    
+}
+.main_visual h1{
+    font-size: 70px;
+    font-weight: 700;
+    color:#FFFFFF;
+}
+
+
+
+
+/*¥»¥¯¥·¥ç¥?(1)*/
+.section1 {
+    padding: 80px 0;
+}
+
+.section1 .container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1280px;
+}
+.section1 .row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section1 .mokuteki{
+    font-size: 30px;
+    }
+    
+.section1 .kekka{
+    font-size: 30px;
+    }
+
+.section1 .con{
+    font-size: 30px;
+    }
+
+.section1 .col {
+    width: 45%;
+    font-size: 30px;
+}
+
+.section1 .sub_title {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.section1 h2 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.6;
+}
+
+.section1 .text{
+    font-size: 18px;
+    line-height: 1.8;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding: 50px 0;
+}
+
+
+
+
+ /*gazou*/
+ .section1 .gazou{
+     background-image: url('./danmenzu.jpg');
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center top;
+     position: relative;
+ } 
+ 
+ .section1 .pictureposition{
+     width: 90%;
+     margin: -20 auto;
+     max=width: 26px;
+     height: 1280px;
+     position: relative;
+ }
+ 
+    
+    
